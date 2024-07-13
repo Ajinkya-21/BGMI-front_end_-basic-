@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    height: 76px;
+    background-color: black;
+}
+.left{
+    float: left;
+    margin-left: 30px;
+}
+#limg{
+    margin-top: 12px;
+}
+.right{
+    float: right;
+}
+#home{
+    font-size: 20px;
+    color: orange;
+    margin-top: 27px;
+    transition: 0.5s;
+}
+#news{
+    font-size: 20px;
+    margin-top: 27px;
+    color: gray;
+    transition: 0.5s;
+}
+#redeem{
+    font-size: 20px;
+    margin-top: 27px;
+    color: gray;
+    transition: 0.5s;
+}
+#esports{
+    font-size: 20px;
+    margin-top: 27px;
+    color: gray;
+    transition: 0.5s;
+}
+#support{
+    font-size: 20px;
+    margin-top: 27px;
+    color: gray;
+    transition: 0.5s;
+}
+#game{
+    font-size: 20px;
+    margin-top: 27px;
+    color: gray;
+    transition: 0.5s;
+}
+#ads{
+    transition: 0.5s;
+    font-size: 25px;
+    padding: 20px 20px 22px 20px;
+    font-weight: 900;
+    color: black;
+    background-color: rgb(231, 150, 0);
+}
+#ios{
+    transition: 0.5s;
+    font-size: 25px;
+    padding: 20px 20px 22px 20px;
+    font-weight: 900;
+    color: black;
+    background-color: orange;
+    margin-right: 1px;
+}
+#face{
+    transition: 0.5s;
+font-size: 30px;
+margin-right: 40px;
+margin-top: 20px;
+}
+#insta{
+    transition: 0.5s;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#you{
+    transition: 0.5s;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#ios:hover{
+    background-color: rgb(221, 144, 0);
+}
+#ads:hover{
+    background-color: rgb(186, 121, 2);
+}
+#home:hover{
+    color: white;
+}
+#news:hover{
+    color: white;
+}
+#redeem:hover{
+    color: white;
+}
+#esports:hover{
+    color: white;
+}
+#support:hover{
+    color: white;
+}
+#game:hover{
+    color: white;
+}
+#heading{
+    color: orange;
+    font-size: 120px;
+}
+#apple{
+    width: 200px;
+}
+#google{
+    margin-left: 90px;
+    margin-right: 20px;
+    width: 200px;
+}
+#divheart{
+    background-image: linear-gradient(rgba(225, 222, 222, 0.85),rgba(235, 233, 233, 0.85)),url("heartimg.jpg"); 
+    height: 900px;
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(48, 48, 48);
+    font-size: 50px;
+}
+#heart{
+    width: 1200px;
+    height: 700px;
+}
+#divnews{
+    padding-top: 50px;
+    text-align: center;
+    height: 600px;
+    font-size: 50px;
+    background-size: auto;
+    background-image: linear-gradient(rgb(218, 215, 215,0.75),rgb(191, 189, 189,0.75)),url("random.jpg");
+}
+#h3news{
+    color: rgb(28, 28, 28);
+    margin-bottom: 30px;
+}
+
+#patch{
+    height: 210px;
+    width: 384px;
+}
+.notice{
+    transition: 0.5s;
+    width: 384px;
+    height: 330px;
+    background-color: white;
+    float: left;
+}
+.notice:hover{
+    margin-top: -20px;
+}
+.p1{
+    margin-left: 20px;
+    color: gray;
+    text-align: left;
+    font-size: 20px;
+}
+.p2{
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+.p3{
+    margin-left: 20px;
+    color: gray;
+    text-align: left;
+    font-size: 20px;
+}
+#d1{
+    margin-left: 170px;
+    margin-right: 100px;
+}
+#d2{
+    margin-right: 100px;
+}
+#last1{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image:linear-gradient(rgba(198, 196, 196, 0.75),rgba(138, 136, 136, 0.75)), url("last.jpg");
+}
+#lastimg{
+    margin-top: 40px;
+    height: 150px;
+}
+#lastp{
+    float: left;
+    margin-left: 34%;
+    margin-top: -300px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#same{
+    float: left;
+    margin-right: 20px;
+    margin-left: 640px;
+}
+.same{
+    float: left;
+    margin-top: -150px;
+}
+#li1{
+    margin-left: 630px;
+}
+#li2{
+    margin-left: 850px;
+}
+footer{
+    height: 250px;
+    background-color: black;
+}
+#last{
+    display: flex;
+    justify-content: center;
+
+}
